@@ -40,8 +40,8 @@ jobs:
       - name: Log in to Docker Hub
         uses: docker/login-action@v2
         with:
-          username: ${{ secrets.DOCKER_USERNAME }}
-          password: ${{ secrets.DOCKER_PASSWORD }}
+          username: ${{naufal11 }}
+          password: ${{ dckr_pat_d0sUdr1ld9YPKGzWxU3PgMKch9w }}
 
       - name: Build Docker Image
         run: |
@@ -50,6 +50,6 @@ jobs:
 
       - name: Push Docker Image
         run: |
-          docker push your-dockerhub-username/portfolio:latest
-          docker push your-dockerhub-username/portfolio:${{ github.sha }}
+          docker push your-dockerhub-naufal11/portfolio:latest
+          docker push your-dockerhub-naufal11/portfolio:${{ github.sha }}
 
