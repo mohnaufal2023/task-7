@@ -11,7 +11,7 @@ Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
 # Portfolio Website
 
-![CI/CD Pipeline](https://github.com/your-username/your-repo/actions/workflows/ci-cd.yml/badge.svg)
+![CI/CD Pipeline](https://github.com/mohnaufal2023/task-7/actions/workflows/ci-cd.yml/badge.svg)
 
 ## About
 This is a portfolio website built with React.js...
