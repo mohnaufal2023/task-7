@@ -45,11 +45,10 @@ jobs:
 
       - name: Build Docker Image
         run: |
-          docker build -t your-dockerhub-username/portfolio:latest .
-          docker tag your-dockerhub-username/portfolio:latest your-dockerhub-username/portfolio:${{ github.sha }}
+          docker build -t naufal11/portfolio:latest .
+          docker tag naufal11/portfolio:latest naufal11/portfolio:${{ github.sha }}
 
       - name: Push Docker Image
         run: |
-          docker push your-dockerhub-username/portfolio:latest
-          docker push your-dockerhub-username/portfolio:${{ github.sha }}
-
+          docker push naufal11/portfolio:latest
+          docker push naufal11/portfolio:${{ github.sha }}
